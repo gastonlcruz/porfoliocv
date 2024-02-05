@@ -1,9 +1,14 @@
 import React from 'react';
 import "./navbar.css";
+import SideBar from '../SideBar/SideBar';
 
 const NavBar = () => {
   return (
-    <div className='navbar'>NavBar</div>
+    <div className='navbar'>
+      <SideBar/>
+      
+      
+      </div>
   )
 }
 
