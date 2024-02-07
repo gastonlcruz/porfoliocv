@@ -1,6 +1,7 @@
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import Portada from './components/Portada/Portada';
+import Info from './components/Info/Info';
 
 function App() {
   return (
@@ -14,9 +15,10 @@ function App() {
       </section>
       <section>Services</section>
       <section id='Porfolio'>Parallax</section>
-      <section>Porfolio1</section>
-      <section>Porfolio2</section>
-      <section>Porfolio3</section>
+      <section>
+      <Info />
+      </section>
+      
       <section id='Contact'>Contact</section>
 
     </div>
