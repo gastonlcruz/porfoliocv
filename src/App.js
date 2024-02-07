@@ -15,10 +15,8 @@ function App() {
       </section>
       <section>Services</section>
       <section id='Porfolio'>Parallax</section>
-      <section>
       <Info />
-      </section>
-      
+        
       <section id='Contact'>Contact</section>
 
     </div>
