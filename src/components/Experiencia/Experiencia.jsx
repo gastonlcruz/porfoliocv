@@ -1,23 +1,31 @@
 import "./experiencia.css";
 
+import React from 'react'
+
 const Experiencia = () => {
   return (
     <div className="experiencia">
-        <div className="contenedor">
-            <div className="lista">
-                <div className="listaitem">
-                    <div className="jobizq"></div>
-                    <div className="job desc"></div>
-                    <div className="job date"></div>
-                    <div className="job company"></div>
-                    <div>centro</div>
-                    <div>linea</div>
-                    <div>circulo</div>
-                </div>
+        <div className="izq">
+            <div className="trabajo">
+                Programador
             </div>
-            </div>    
-        Experiencia
+            <div className="trabajodesc">
+                trabajo hace 8 años
+            </div>
+            <div className="fecha">
+                2015-2023
+            </div>
+            <div className="empresa">
+                ARMADA ARGENTINA
+            </div>
         </div>
+        <div className="centro">
+            <div className="linea">
+                <div className="circulo"></div>
+            </div>
+
+        </div>
+    </div>
   )
 }
 
