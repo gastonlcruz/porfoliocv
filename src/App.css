@@ -8,4 +8,5 @@ section{
   width: 100vw;
   scroll-snap-align: center;
   overflow: hidden;
+  background: linear-gradient(180deg, #7070e2, #bfbfdd);
 }

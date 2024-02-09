@@ -1,7 +1,10 @@
 .experiencia{
     display: flex; 
     justify-content: space-between; 
-    height: 12rem; 
+    height: 12rem;
+    padding-left: 12rem;
+    padding-right: 80rem;
+    width: 30%; 
     
     .izq{
         width: 33.333333%; 
