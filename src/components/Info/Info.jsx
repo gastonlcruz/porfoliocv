@@ -7,16 +7,22 @@ const items = [
       id: 1,
       title: "EDUCACIÓN",
       img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-      desc: "Abogado\n\r"+
-      "Universidad de Morónn\n\r"+
-      "\n\rDiseñador y Programador\n\r" +
-      "Escuela Da vinci",
+      desc: "Abogado-Universitario\n\r"+
+      "Universidad de Morón\n\r"+
+      "\n\rDiseñador y Programador - Terciario \n\r" +
+      "Escuela Da Vinci\n\r"+
+      "\n\rTécnico Electrónico - Secundario\n\r" +
+      "Escuela de Educación Técnica Nº 1 Alte. Ramon G. Fernández",
     },
     {
       id: 2,
-      title: "Next.js Blog",
+      title: "CAPACITACIÓN",
       img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+      desc: "Seguridad de la información: uso seguro de las tecnologías de la información y las comunicaciones (tics) IN-TI-27363 - INAP\n\r"+
+       "\n\rAccesibilidad web pautas 2.0 - IN-ME-24672 – INAP\n\r"+ 
+       "\n\rProgramación .net con c# / vb.net - Educación IT\n\r"+ 
+       "\n\rPatrones de diseño - Educación IT\n\r"+
+       "Trayecto gestión de proyectos y metodologías ágiles – Coursera Google",
     },
     {
       id: 3,

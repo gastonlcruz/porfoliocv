@@ -17,6 +17,7 @@
             
             font-size: 3.75rem;
             line-height: 350px;
+            color: white;
         }
 
         h2 {
@@ -24,11 +25,13 @@
             line-height: 8px;
             position: relative;
             bottom: 150px;
+            color: aliceblue;
             }
       
           span {
             font-weight: 300;
             height: 50px;
+            color: aliceblue;
           }
         
     }
