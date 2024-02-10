@@ -5,9 +5,12 @@ import {motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
     {
       id: 1,
-      title: "React Commerce",
+      title: "EDUCACIÓN",
       img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+      desc: "Abogado\n\r"+
+      "Universidad de Morónn\n\r"+
+      "\n\rDiseñador y Programador\n\r" +
+      "Escuela Da vinci",
     },
     {
       id: 2,
@@ -42,10 +45,10 @@ const items = [
     <section >
       <div className="container">
         <div className="wrapper">
-          <div className="imageContainer" ref={ref}>
+          {/* <div className="imageContainer" ref={ref}>
             <img src={item.img} alt="" />
-          </div>
-          <motion.div className="textContainer" style={{y}}>
+          </div> */}
+          <motion.div className="textContainer" style={{y}} ref={ref}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
             <button>See Demo</button>

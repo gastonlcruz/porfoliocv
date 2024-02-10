@@ -6,6 +6,7 @@ import Contacto from './components/Contacto/Contacto';
 import Experiencia from './components/Experiencia/Experiencia';
 
 function App() {
+  
   return (
     <div>
       <section id='Homepage'>
@@ -14,6 +15,7 @@ function App() {
       </section>
       <section id='Services'>
         Parallax
+        
       </section>
       <section>
         <Experiencia/>

@@ -13,7 +13,7 @@
 
     .progressBar {
       height: 10px;
-      background-color:black;
+      background-color:aliceblue;
     }
   }
 
@@ -53,11 +53,13 @@
        
         h2 {
           font-size: 72px;
+          color: aliceblue;
         }
 
         p {
-          color: gray;
+          color: aliceblue;
           font-size: 20px;
+          white-space: pre;
         }
        
       }
