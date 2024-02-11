@@ -41,7 +41,7 @@ const Portada = () => {
         <motion.div className="textContainer" variants={textVariants}
           initial="initial"
           animate="animate">
-          <motion.h2 variants={textVariants}>Web developer and UI designer</motion.h2>
+          {/* <motion.h2 variants={textVariants}>Web developer and UI designer</motion.h2> */}
           <motion.h1 variants={textVariants}>GASTON CRUZ PORFOLIO</motion.h1>
           <motion.h2 variants={textVariants}>
              <ReactTyped strings={[

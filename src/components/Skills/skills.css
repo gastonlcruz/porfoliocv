@@ -1,0 +1,21 @@
+.skills{
+    display: flex; 
+    flex-direction: column; 
+    gap: 3rem; 
+    justify-content: center;
+    flex-wrap: wrap; 
+    
+    h1{
+
+    }
+    .box{
+        padding: 0.5rem; 
+        border-radius: 0.25rem; 
+        font-size: 0.875rem;
+        line-height: 1.25rem; 
+        color: black; 
+        background-color: white; 
+        cursor: pointer;
+        border-radius: .25rem;
+    }
+}

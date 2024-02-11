@@ -11,24 +11,23 @@
 
 
         .textContainer{
-         width: 50%;
-        height: 100%;
+        width: 50%;
+        height: 70%;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        gap: 40px;
+        
         }
 
-        h2 {
-            font-size: 30px;
-            color: rebeccapurple;
-            letter-spacing: 10px;
-          }
-    
         h1 {
             font-size: 88px;
             color:aliceblue;    
         }
+        h2 {
+            font-size: 55px;
+            color: rebeccapurple;
+            letter-spacing: 10px;
+          }
     }
 
     .movingText {
