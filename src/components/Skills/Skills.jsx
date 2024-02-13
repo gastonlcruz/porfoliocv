@@ -1,15 +1,21 @@
-import React from 'react';
+import {useRef} from 'react';
 import "./skills.css";
+import { motion,useInView } from 'framer-motion';
 
 const Skills = () => {
+  const skillRef= useRef();
+  const isSkillRefInView  = useInView(skillRef, { margin: "-100px" });
+
   return (
-    <div className='skills'>
+    <div className='skills'ref={skillRef}>
         <h1>
         Skills
         </h1>
-        <div>
-
-        </div>
+        <motion.div
+              initial={{ x: "-300px" }}
+              animate={isSkillRefInView ? { x: 0 } : {}}
+              className="skills">  
+        
         <div className="box">
                 JavaScript
               </div>
@@ -85,6 +91,7 @@ const Skills = () => {
               <div className="box">
                 Figma
               </div>
+              </motion.div>
     </div>
   )
 }
