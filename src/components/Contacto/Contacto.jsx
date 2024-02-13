@@ -25,7 +25,7 @@ const Contacto = () => {
                   duration: 3,
                   repeat: Infinity,
                   delay: index * 0.1,
-                }}
+                }}className="texttype"
               >
                 {letter}
               </motion.span>

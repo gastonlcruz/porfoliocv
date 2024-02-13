@@ -46,8 +46,11 @@ const Portada = () => {
           <motion.h2 variants={textVariants}>
              <ReactTyped strings={[
               "Programador",
-              "Diseñador",
-              "UX"
+              "Desarrollador ",
+              "Diseñador Gráfico",
+              "Diseño UX/UI",
+              "Product Manager",
+              "Abogado",
             ]} 
               typeSpeed={40}
               backSpeed={50}
@@ -59,7 +62,7 @@ const Portada = () => {
       <motion.div className="movingText" variants={movingText}
         initial="initial"
         animate="animate">
-        Writer Content Creator Influencer
+        WEB APPS QA UX UI Data
       </motion.div>
     
       

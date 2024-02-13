@@ -16,7 +16,7 @@ const Experiencia = () => {
               transition={{ delay: 0.2 }}
               className="exp"
             >
-              EXPERIENCE
+              EXPERIENCIA
             </motion.h1>
             <motion.div
               initial={{ x: "-300px" }}
@@ -26,10 +26,13 @@ const Experiencia = () => {
     <div className="experiencia">
         <div className="izq">
             <div className="trabajo">
-                Programador
+                Analista Programador
             </div>
             <div className="trabajodesc">
-                trabajo hace 8 años
+            Analista Programador, diseñador y QA Tester en más de 20 proyectos. 
+            Desarrollo de aplicaciones Windows y web. 
+            Implementación de los desarrollos a producción. Windows Server- IIS. 
+            Supervisión y coordinación con desarrollos externos con Universidades Publicas.
             </div>
             <div className="fecha">
                 2015-2023
@@ -55,32 +58,33 @@ const Experiencia = () => {
             </div>
         <div className="izq">
             <div className="trabajo">
-                Programador
+                Operador Informático
             </div>
             <div className="trabajodesc">
-                trabajo hace 8 años
+            Subsecretaria de Seguridad de la Provincia de Buenos Aires
+            Centro Operativo de Monitoreo (Municipalidad de San Martín)
             </div>
             <div className="fecha">
-                2015-2023
+                2014
             </div>
             <div className="empresa">
-                ARMADA ARGENTINA
+                COM - San Martín
             </div>
         </div>
     </div>
     <div className="experiencia">
         <div className="izq">
             <div className="trabajo">
-                Programador
+            Producción de Diseño Gráfico
             </div>
             <div className="trabajodesc">
-                trabajo hace 8 años
+            Desarrollo de videojuegos web para marcas en el exterior.
             </div>
             <div className="fecha">
-                2015-2023
+                2013
             </div>
             <div className="empresa">
-                ARMADA ARGENTINA
+                ARES RICHMEDIA 
             </div>
         </div>
         <div className="centro">
