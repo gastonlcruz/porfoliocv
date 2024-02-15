@@ -5,6 +5,7 @@ import Info from './components/Info/Info';
 import Contacto from './components/Contacto/Contacto';
 import Experiencia from './components/Experiencia/Experiencia';
 import Skills from './components/Skills/Skills';
+import About from './components/About/About';
 
 function App() {
   
@@ -16,7 +17,7 @@ function App() {
       </section>
       <section id='Services'>
         Parallax
-        
+        <About></About>
       </section>
       <section>
         <Experiencia/>
