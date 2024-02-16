@@ -28,7 +28,7 @@ const itemVariants = {
 
 
 const Links = () => {
-  const items = ["Homepage", "Services", "Portfolio", "Contact", "About"];
+  const items = ["Inicio", "Acerca", "Experiencia", "Educación", "Contacto"];
   const asignarSVG = (nombre) => {
     switch (nombre) {
       case "Homepage":

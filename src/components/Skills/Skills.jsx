@@ -24,43 +24,43 @@ const Skills = () => {
                 JavaScript
               </div>
               <div className="box">
-                TypeScript
-              </div>
-              <div className="box">
                 React.js
               </div>
               <div className="box">
-                Next.js
+                C#
+              </div>
+              <div className="box">
+                .Net
+              </div>
+              <div className="box">
+                Asp.net
+              </div>
+              <div className="box">
+                Unity
+              </div>
+              <div className="box">
+                Photoshop
+              </div>
+              <div className="box">
+                Illustrator
+              </div>
+              <div className="box">
+                Premier
+              </div>
+              <div className="box">
+                Vegas pro
               </div>
               <div className="box">
                 SCSS
               </div>
               <div className="box">
-                Tailwind CSS
-              </div>
-              <div className="box">
-                MongoDB
-              </div>
-              <div className="box">
-                PostgreSQL
-              </div>
-              <div className="box">
-                Node.js
-              </div>
-              <div className="box">
-                Nest.js
-              </div>
-              <div className="box">
-                Express.js
-              </div>
-              <div className="box">
-                Spring Boot
+                Sound Forge
               </div>
               <div className="box">
                 GraphQL
               </div>
               <div className="box">
-                Apollo
+                Bootstrap
               </div>
               <div className="box">
                 Redux
@@ -78,16 +78,16 @@ const Skills = () => {
                 Webpack
               </div>
               <div className="box">
-                Vite
+                SharePoint 
               </div>
               <div className="box">
-                Docker
+                SQL
               </div>
               <div className="box">
-                AWS
+                Windows S
               </div>
               <div className="box">
-                Firebase
+                IIS
               </div>
               <div className="box">
                 Git

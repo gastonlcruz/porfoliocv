@@ -1,15 +1,32 @@
 .about{
-    display: flex;
+    
     justify-content: center;
     align-items: center;
     color: aliceblue;
     text-align: center;
     
+    .titulo{
+        max-width: fit-content;
+        margin-inline: auto;
+        font-size: 3.5rem;
+ 
+ 
+    }
     .parrafo{
         color: white;
         flex: 1;
         display: flex;
         flex-direction: column;
-        
+        margin-left: 33rem;
+        margin-right: 33rem;
+        text-align: left;
+    }
+    .black{
+        display: flex;
+        margin-top: -13rem;
+        margin-left: 68rem;
+    width: 36vw; 
+    height: 10vh; 
+    background-color: #000000; 
     }
 }
