@@ -45,7 +45,7 @@ const items = [
     target: ref,
   });
 
-  const y = useTransform(scrollYProgress, [0, 1], [-3000, 3000]);
+  const y = useTransform(scrollYProgress, [0, 1], [1, 5]);
     
   return (
     <section >
@@ -57,7 +57,7 @@ const items = [
           <motion.div className="textContainer" style={{y}} ref={ref}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
-            <button>See Demo</button>
+            {/* <button>See Demo</button> */}
           </motion.div>
         </div>
       </div>
