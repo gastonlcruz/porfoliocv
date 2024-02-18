@@ -9,16 +9,16 @@ const Skills = () => {
   return (
     <div className='skills'ref={skillRef}>
         <motion.h1
-              initial={{ x: "-300px" }}
-              animate={isSkillRefInView ? { x: 0 } : {}}
+              initial={{ y: "-300px" }}
+              animate={isSkillRefInView ? { y: 0 } : {}}
               transition={{ delay: 0.2 }}
-              className="">
-        Skills
+              className="titulo">
+        SKILLS
         </motion.h1>
         <motion.div
-              initial={{ x: "-300px" }}
-              animate={isSkillRefInView ? { x: 0 } : {}}
-              className="skills">  
+              initial={{ y: "-600px" }}
+              animate={isSkillRefInView ? { y: 0 } : {}}
+              className="contenedor">  
         
         <div className="box">
                 JavaScript
